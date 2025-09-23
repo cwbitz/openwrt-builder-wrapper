@@ -34,8 +34,7 @@ const popularTagsMap = {
     'x86-64-openwrt-23.05.4'
   ],
   'ghcr.io/ekkog/openwrt-forks-imagebuilder': [
-    'Lean-x86-64-snapshots',
-    'Lean-ramips-mt7621-snapshots'
+    'lean-ramips-mt7621-snapshots'
   ]
     
 }
