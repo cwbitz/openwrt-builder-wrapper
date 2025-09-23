@@ -15,8 +15,7 @@ const { t } = useI18n()
 const showAdvancedOptions = ref(false)
 const repositories = [
   { title: 'OpenWrt Official', value: 'openwrt/imagebuilder' },
-  { title: 'ImmortalWrt Official', value: 'immortalwrt/imagebuilder' },
-  { title: 'OpenWrt Forks', value: 'ghcr.io/ekkog/openwrt-forks-imagebuilder' }
+  { title: 'ImmortalWrt Official', value: 'immortalwrt/imagebuilder' }
 ]
 
 // 常用标签
@@ -32,11 +31,7 @@ const popularTagsMap = {
     'rockchip-armv8-openwrt-23.05.4',
     'x86-64-openwrt-24.10.2',
     'x86-64-openwrt-23.05.4'
-  ],
-  'ghcr.io/ekkog/openwrt-forks-imagebuilder': [
-    'lean-ramips-mt7621-snapshots'
   ]
-    
 }
 
 const popularTags = computed(() => {
